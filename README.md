@@ -17,7 +17,7 @@ With our provided pre-trained model, the **AUROC** should be **1.0**.
 Using the following command line to run the training:
 
 ```sh
-python main_ssl.py train --num_class 0 
+python main_ssl.py train --normal_class 0 
 ```
 Note that the config dictionary can be found in [main_ssl.py](./main_ssl.py). During review period, we only provide the training sturcture, some modules are missing. Upon acceptance, we would provide complete code with detailed tutorials. 
 
