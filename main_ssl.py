@@ -336,9 +336,7 @@ class Trainer(object):
             x_test_anomaly = x[anomaly_indx].to(self.device)
             
             data_r = torch.cat([CutPerm()(x_test_normal, k) for k in range(1, 4)])
-            
-            pdb.set_trace()
-            
+                        
             feat_t = self.model(x_test_normal)
             feat_a = self.model(x_test_anomaly)
             feat_r = self.model(data_r)
