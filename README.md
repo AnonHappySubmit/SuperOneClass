@@ -2,6 +2,10 @@
 
 The resposity contains the demo and test code / pre-trained models (anonymous), and training code structure during the review stage. We will release the complete train code on more datasets (as well as tutorials and more pre-trained models) upon the acceptance. 
 
+**Typo Correction**: in lines 138-140 of the submitted manuscript, $L_{AD}$ should be $L_{AU}$. We will correct this in the next revision.
+ 
+
+
 ## 1. Testing Command Line
 
 Using the following command line to get the example AUROC results: 
